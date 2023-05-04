@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter first name"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/ed1"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter middle name"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/ed2"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:hint="Enter last name"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed3"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter DOB"
+        android:id="@+id/ed4"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter address"
+        android:id="@+id/ed5"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Pho No"
+        android:inputType="number"
+        android:id="@+id/ed6"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter specialization"
+        android:id="@+id/ed7"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:id="@+id/b1"/>
+
+</LinearLayout>
