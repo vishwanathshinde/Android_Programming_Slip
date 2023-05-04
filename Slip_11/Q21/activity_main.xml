@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Name"
+        android:textSize="25sp"
+        android:id="@+id/ed_name"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Surname"
+        android:textSize="25sp"
+        android:id="@+id/ed_surname"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Class"
+        android:textSize="25sp"
+        android:id="@+id/ed_class"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Gender"
+        android:textSize="25sp"
+        android:id="@+id/ed_gender"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Hobbies"
+        android:textSize="25sp"
+        android:id="@+id/ed_hobbies"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Marks"
+        android:textSize="25sp"
+        android:id="@+id/ed_marks"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/submit"/>
+
+</LinearLayout>
